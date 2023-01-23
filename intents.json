@@ -1,0 +1,30 @@
+{"intents": [
+    {"tag": "greet",
+    "user": ["hey", "hola", "hi there!","could you help me?" ],
+    "responses": ["How come I help you?", "Hi", "Howdy!"]},
+
+    {"tag": "card_arrival",
+    "user": ["when do I get my card?", "how will I get my card?", "please help me find my card", "I ordered a card and I still haven't received it. It's been two weeks. What can I do?"],
+    "responses": ["Your card will arrive in the mail in about 8 weeks", "Please contact us if you haven't received your card within 8 weeks via mail", "Howdy!"]},
+
+    {"tag": "extra_charge",
+    "user": ["Can you tell me why I noticed a $1 charge on my statement?", "I would like a refund on the extra dollar I was charged", "Something went wrong, I was charged an extra dollar?" ],
+    "responses": ["Please contact us to clarify the issue", "Please contact us after 48 hours if it has not been resolved"]},
+
+    {"tag": "exchange_rate",
+    "user": ["How do I find the exchange rate?", "I need to know your exchange rates.", "hi there!","could you help me" ],
+    "responses": ["Please check out our website for exchange rates", "Please call us for our exchange rates"]},
+    
+    {"tag": "deposit",
+    "user": ["I would like to deposit money", "deposit" ],
+    "responses": ["Please log in to your online banking account or visit a branch to deposit money", "Please call us for telephone banking"]},
+
+    {"tag": "withdraw",
+    "user": ["I would like to withdraw", "withdraw", "hi there!" ],
+    "responses": ["Please visit a local branch to withdraw money", "please visit a local bank to withdraw money from a teller or machine"]},
+
+    {"tag": "bye",
+    "user": ["thank you", "goodbye", "later","thanks" ],
+    "responses": ["Thank you for using our digital assistant", "Have a great day!", "Take care!"]}
+    
+]}
